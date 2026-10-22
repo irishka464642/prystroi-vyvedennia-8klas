@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10182a">
+  <meta name="description" content="Коротка пам’ятка для 8 класу про пристрої виведення даних, їхні види та характеристики.">
+  <title>Пристрої виведення даних · Пам’ятка для 8 класу</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1020;--panel:#121c31;--panel2:#17243b;--ink:#edf4ff;--muted:#b3c1d8;--line:#2b3c5a;--cyan:#62d7e5;--gold:#f4c66a;--green:#a7e0bd;--violet:#c8b5ff;--shadow:0 18px 48px #03071266}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#132546 0,transparent 36rem),var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:var(--cyan)}.wrap{width:min(1080px,100% - 32px);margin:auto}.hero{padding:64px 0 38px}.eyebrow{color:var(--cyan);font-weight:750;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}.hero h1{font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.04;max-width:850px;margin:14px 0 18px;letter-spacing:-.045em}.hero p{max-width:720px;color:var(--muted);font-size:1.12rem;margin:0}.hero .tag{display:inline-flex;align-items:center;gap:8px;margin-top:24px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:.9rem}.dot{width:8px;height:8px;border-radius:50%;background:var(--green)}
+    nav{position:sticky;top:0;z-index:5;background:#0b1020eF;border-block:1px solid #26344d;backdrop-filter:blur(12px)}nav .wrap{display:flex;gap:8px;overflow:auto;padding:10px 0}nav a{white-space:nowrap;text-decoration:none;color:var(--muted);font-size:.9rem;padding:7px 11px;border-radius:9px}nav a:hover,nav a:focus-visible{background:var(--panel2);color:var(--ink);outline:none}
+    main{padding:28px 0 64px}.intro{display:grid;grid-template-columns:1.3fr .7fr;gap:16px;margin-bottom:20px}.card{background:linear-gradient(145deg,#142039,#10192b);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}.card h2,.card h3{line-height:1.2;margin:0 0 12px}.card p{margin:.5em 0;color:var(--muted)}.callout{border-left:3px solid var(--gold);padding:10px 0 10px 15px;color:var(--ink)!important}.section{margin:44px 0;scroll-margin-top:76px}.section-head{display:flex;align-items:end;gap:18px;margin:0 0 17px}.section-head .num{color:var(--cyan);font-size:.88rem;font-weight:800;letter-spacing:.1em}.section h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:4px 0 0;line-height:1.15}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.mini{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}.mini h3{font-size:1.12rem;margin:0 0 8px}.mini p{margin:0;color:var(--muted)}.label{display:inline-block;margin:0 6px 8px 0;padding:3px 9px;border-radius:999px;background:#1c2a43;color:var(--cyan);font-size:.78rem;font-weight:700}.list{padding-left:1.15rem;margin:.5rem 0;color:var(--muted)}.list li{padding:.15rem 0}.list strong,.mini strong,.card strong{color:var(--ink)}
+    .spec-table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:14px;background:var(--panel)}.spec-table th,.spec-table td{text-align:left;padding:13px 15px;border-bottom:1px solid var(--line);vertical-align:top}.spec-table th{color:var(--cyan);font-size:.9rem}.spec-table td{color:var(--muted)}.spec-table tr:last-child td{border-bottom:0}.tech{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tech .mini:nth-child(1){border-top:3px solid var(--violet)}.tech .mini:nth-child(2){border-top:3px solid var(--gold)}.tech .mini:nth-child(3){border-top:3px solid var(--green)}
+    .flow{display:flex;align-items:stretch;gap:10px;margin-top:15px}.flow div{flex:1;background:#17243b;border:1px solid var(--line);border-radius:13px;padding:14px;color:var(--muted);text-align:center}.flow b{display:block;color:var(--ink);margin-bottom:3px}.flow span{align-self:center;color:var(--cyan);font-size:1.2rem}.summary{background:linear-gradient(120deg,#133143,#192743);border-color:#326174}.summary h2{color:var(--cyan)}.summary ul{columns:2;gap:32px}.source{font-size:.9rem;color:var(--muted);border-top:1px solid var(--line);padding:22px 0 36px;margin-top:50px}.source p{margin:5px 0}.toplink{display:inline-block;margin-top:9px;text-decoration:none}
+    @media(max-width:760px){.intro,.grid,.grid.three,.tech{grid-template-columns:1fr}.hero{padding-top:42px}.card{padding:19px}.section{margin:34px 0}.spec-table th,.spec-table td{padding:10px 9px;font-size:.9rem}.flow{flex-direction:column}.flow span{transform:rotate(90deg)}.summary ul{columns:1}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="hero wrap" id="top">
+    <div class="eyebrow">Інформатика · 8 клас</div>
+    <h1>Пристрої виведення даних</h1>
+    <p>Як комп’ютер показує зображення, друкує текст, відтворює звук і створює об’ємні моделі. Коротка пам’ятка перед командним квестом.</p>
+    <div class="tag"><span class="dot" aria-hidden="true"></span>Прочитай теорію — тоді переходь до запитань</div>
+  </header>
+  <nav aria-label="Зміст"><div class="wrap">
+    <a href="#kinds">Види</a><a href="#monitors">Монітори</a><a href="#adapter">Відеоадаптер</a><a href="#printing">Друк</a><a href="#3d">3D-друк</a><a href="#audio-video">Звук і відео</a><a href="#choose">Як обирати</a>
+  </div></nav>
+  <main class="wrap">
+    <div class="intro">
+      <article class="card"><h2>Що роблять пристрої виведення?</h2><p>Вони подають результати роботи комп’ютера у формі, яку людина може сприйняти: як зображення на екрані, надрукований текст, звук або об’ємний предмет.</p><p class="callout">Один пристрій може працювати з кількома видами даних. Наприклад, монітор показує і текст, і графіку, і відео.</p></article>
+      <article class="card"><h2>Швидка схема</h2><p><strong>Текст і графіка:</strong> монітор, принтер, плотер.</p><p><strong>Звук:</strong> навушники, звукові колонки, синтезатор.</p><p><strong>Відео:</strong> монітор, проєктор, сенсорний екран, електронна дошка.</p></article>
+    </div>
+
+    <section class="section" id="kinds">
+      <div class="section-head"><span class="num">01</span><div><span class="eyebrow">Спершу класифікуємо</span><h2>Види за типом даних</h2></div></div>
+      <div class="grid three">
+        <article class="mini"><span class="label">Текст і графіка</span><h3>Монітори й пристрої друку</h3><p>Монітор показує дані на екрані. Принтер і плотер виводять їх на папір, плівку, тканину або інший матеріал.</p></article>
+        <article class="mini"><span class="label">Звук</span><h3>Навушники й колонки</h3><p>Допомагають почути музику, мовлення, звукові сповіщення та інші аудіодані.</p></article>
+        <article class="mini"><span class="label">Відео</span><h3>Екрани й проєктори</h3><p>Монітори, мультимедійні проєктори, сенсорні екрани та електронні дошки показують рухоме зображення.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="monitors">
+      <div class="section-head"><span class="num">02</span><div><span class="eyebrow">Зображення на екрані</span><h2>Монітори та їхні властивості</h2></div></div>
+      <div class="grid">
+        <article class="mini"><h3>Основні типи</h3><ul class="list"><li><strong>LCD</strong> — рідкокристалічні монітори; це найпоширеніша технологія в сучасних моніторах.</li><li><strong>Плазмові</strong> — використовувалися для великих яскравих екранів; мали невисоку роздільність.</li><li><strong>OLED</strong> — вирізняються високою контрастністю та яскравістю і малою товщиною.</li><li><strong>e-ink</strong> — електронне чорнило; зручне для читання, зокрема в електронних книжках.</li></ul></article>
+        <article class="mini"><h3>Не плутай: тип і підсвічування</h3><p>LCD-монітори різняться принципом роботи матриці: TN+film, PLS, різні версії IPS і VA. У багатьох LCD-моніторах для підсвічування використовують LED-світлодіоди. Отже, LED-підсвічування саме по собі не означає, що екран належить до окремого від LCD типу.</p></article>
+      </div>
+      <div class="card" style="margin-top:14px;padding:0;overflow:auto"><table class="spec-table"><thead><tr><th>Властивість</th><th>Що описує</th><th>Приклад подання</th></tr></thead><tbody>
+        <tr><td><strong>Діагональ</strong></td><td>Розмір екрана від кута до протилежного кута.</td><td>У дюймах</td></tr>
+        <tr><td><strong>Роздільність</strong></td><td>Кількість точок зображення по горизонталі та вертикалі.</td><td>Наприклад, 1920 × 1080</td></tr>
+        <tr><td><strong>Час реакції</strong></td><td>Як швидко піксель реагує на команду змінити колір.</td><td>У мілісекундах (мс)</td></tr>
+        <tr><td><strong>Співвідношення сторін</strong></td><td>Відношення ширини екрана до його висоти.</td><td>Наприклад, 16 : 9 або 21 : 9</td></tr>
+      </tbody></table></div>
+      <p class="callout">У підручнику наведено приклади різних значень роздільності й діагоналі. Саме число без контексту не визначає, який монітор кращий: важливо, для чого його використовуватимуть.</p>
+    </section>
+
+    <section class="section" id="adapter">
+      <div class="section-head"><span class="num">03</span><div><span class="eyebrow">Графічні дані</span><h2>Відеоадаптер</h2></div></div>
+      <div class="grid">
+        <article class="mini"><h3>Що він робить?</h3><p>Відеоадаптер опрацьовує графічні дані, які мають виводитися на екран монітора. Він може бути інтегрованим або окремою платою.</p></article>
+        <article class="mini"><h3>Інтегрований і дискретний</h3><p>Інтегрований адаптер розміщується в мікросхемі процесора або на материнській платі. Окрема плата має графічний процесор і власну графічну (відео-) пам’ять.</p></article>
+      </div>
+      <div class="flow" aria-label="Шлях графічних даних"><div><b>Програма</b>формує графічні дані</div><span aria-hidden="true">→</span><div><b>Відеоадаптер</b>опрацьовує їх</div><span aria-hidden="true">→</span><div><b>Монітор</b>показує зображення</div></div>
+    </section>
+
+    <section class="section" id="printing">
+      <div class="section-head"><span class="num">04</span><div><span class="eyebrow">Дані на матеріалі</span><h2>Принтери й плотери</h2></div></div>
+      <div class="grid three">
+        <article class="mini"><h3>Струменевий</h3><p>Створює зображення, наносячи на матеріал дрібні краплі чорнил. Чорнила можуть вигорати на сонці й бути нестійкими до вологи.</p></article>
+        <article class="mini"><h3>Лазерний</h3><p>Лазер змінює заряд ділянок світлочутливого барабана. До нього прилипає порошковий тонер, який переноситься на папір і закріплюється нагрітими роликами фюзера.</p></article>
+        <article class="mini"><h3>Термосублімаційний</h3><p>Тепло переносить барвник на поверхню. Такий друк дає якісне й стійке до вологи та світла зображення; ним виготовляють, зокрема, сувеніри.</p></article>
+      </div>
+      <article class="card" style="margin-top:14px"><h3>Як описують принтер?</h3><p>Звертай увагу на розмір матеріалу (наприклад, A4 або A3), кількість кольорів, роздільність, швидкість друкування та тип підключення — дротовий чи бездротовий.</p><p><strong>Роздільність друку</strong> може задаватися в точках на дюйм; <strong>швидкість</strong> — у сторінках за хвилину.</p></article>
+      <article class="mini" style="margin-top:14px"><span class="label">Великі формати</span><h3>Плотер, або графобудівник</h3><p>Переважно працює з графікою: кресленнями, ескізами, плакатами та іншими великими зображеннями. Може друкувати на папері, плівці й тканині.</p></article>
+    </section>
+
+    <section class="section" id="3d">
+      <div class="section-head"><span class="num">05</span><div><span class="eyebrow">Виведення у фізичний світ</span><h2>3D-принтери</h2></div></div>
+      <p style="color:var(--muted);max-width:780px">3D-принтер створює об’ємний об’єкт складної форми. Технології відрізняються матеріалом і способом, у який він твердне.</p>
+      <div class="tech">
+        <article class="mini"><span class="label">SLA</span><h3>Світло твердить смолу</h3><p>Спеціальна смола твердне під дією світла — наприклад, лазерного або світлодіодного випромінення.</p></article>
+        <article class="mini"><span class="label">SLS</span><h3>Лазер спікає порошок</h3><p>Промінь лазера плавить і спікає спеціальний порошок, формуючи об’єкт.</p></article>
+        <article class="mini"><span class="label">FDM</span><h3>Пластик наплавляється</h3><p>Попередньо розплавлена пластична маса твердне й поступово формує об’єкт. Ця технологія широко поширена в навчальних закладах.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="audio-video">
+      <div class="section-head"><span class="num">06</span><div><span class="eyebrow">Звук і рухоме зображення</span><h2>Інші пристрої виведення</h2></div></div>
+      <div class="grid">
+        <article class="mini"><h3>Звукові пристрої</h3><p>Навушники, звукові колонки й синтезатори допомагають сприймати аудіодані. Навушники спрямовують звук до слухача, а колонки відтворюють його в приміщенні.</p></article>
+        <article class="mini"><h3>Відеопристрої</h3><p>Проєктор переносить зображення на великий екран або поверхню. Електронні дошки й екранні панелі використовують для показу матеріалів групі людей.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="choose">
+      <div class="card summary"><span class="eyebrow">Перед вибором пристрою</span><h2>Запитай себе: що саме треба вивести?</h2><ul class="list"><li>Для читання чи роботи з графікою потрібен екран?</li><li>Якого розміру матеріал має друкувати принтер?</li><li>Чи потрібен кольоровий друк і з якою деталізацією?</li><li>Наскільки важлива швидкість роботи?</li><li>Потрібно показати звук одному слухачу чи всьому класу?</li><li>Потрібне плоске зображення чи об’ємний предмет?</li></ul><p>Характеристики пристроїв різняться, а нові моделі з’являються постійно. Для реального вибору варто порівняти конкретні моделі та їхні властивості.</p></div>
+    </section>
+    <footer class="source"><p><strong>Джерело:</strong> підручник з інформатики для 8 класу, § 3.3 «Пристрої виведення даних», с. 69–77.</p><p>Ця пам’ятка пояснює основні поняття й допомагає підготуватися до командного квесту.</p><a class="toplink" href="#top">↑ На початок</a></footer>
+  </main>
+</body>
+</html>
